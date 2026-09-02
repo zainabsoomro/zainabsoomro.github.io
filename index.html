@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>My Website ZTS</title>
+    <title>Zainab Soomro</title>
 
     <style>
         * {
@@ -13,78 +12,69 @@
 
         body {
             margin: 0;
-            font-family: Arial, sans-serif;
-            background: #f5f5f5;
-            color: #222;
-        }
-
-        header {
-            background: #222;
-            color: white;
-            padding: 20px;
-            text-align: center;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            font-family: Georgia, "Times New Roman", serif;
+            background: #f7f4ef;
+            color: #2c2a26;
         }
 
         main {
-            max-width: 800px;
-            margin: 80px auto;
-            padding: 20px;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
             text-align: center;
+            padding: 48px 24px;
+        }
+
+        p.eyebrow {
+            margin: 0 0 16px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 13px;
+            letter-spacing: 0.22em;
+            text-transform: uppercase;
+            color: #8a8174;
         }
 
         h1 {
-            font-size: 48px;
-            margin-bottom: 10px;
+            margin: 0 0 12px;
+            font-size: clamp(36px, 6vw, 56px);
+            font-weight: normal;
+            letter-spacing: -0.02em;
         }
 
-        p {
-            font-size: 20px;
-            color: #666;
-        }
-
-        .button {
-            display: inline-block;
-            margin-top: 20px;
-            padding: 12px 24px;
-            background: #222;
-            color: white;
-            text-decoration: none;
-            border-radius: 6px;
-        }
-
-        .button:hover {
-            background: #444;
+        p.tagline {
+            margin: 0;
+            max-width: 28em;
+            font-size: 18px;
+            line-height: 1.6;
+            color: #5c574e;
         }
 
         footer {
+            padding: 24px;
             text-align: center;
-            color: #888;
-            padding: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 13px;
+            color: #8a8174;
         }
     </style>
 </head>
 
 <body>
-
-    <header>
-        <h2>My Website</h2>
-    </header>
-
     <main>
-        <h1>Hello! 👋</h1>
-
-        <p>
-            Welcome to my GitHub Pages website.
+        <p class="eyebrow">Coming soon</p>
+        <h1>Zainab Soomro</h1>
+        <p class="tagline">
+            A personal page is on the way. Check back soon.
         </p>
-
-        <a class="button" href="https://github.com">
-            Visit GitHub
-        </a>
     </main>
 
     <footer>
-        © 2026 My Website
+        © 2026 Zainab Soomro
     </footer>
-
 </body>
 </html>
