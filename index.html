@@ -3,78 +3,327 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zainab Soomro</title>
-
-    <style>
-        * {
-            box-sizing: border-box;
-        }
-
-        body {
-            margin: 0;
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-            font-family: Georgia, "Times New Roman", serif;
-            background: #f7f4ef;
-            color: #2c2a26;
-        }
-
-        main {
-            flex: 1;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            padding: 48px 24px;
-        }
-
-        p.eyebrow {
-            margin: 0 0 16px;
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 13px;
-            letter-spacing: 0.22em;
-            text-transform: uppercase;
-            color: #8a8174;
-        }
-
-        h1 {
-            margin: 0 0 12px;
-            font-size: clamp(36px, 6vw, 56px);
-            font-weight: normal;
-            letter-spacing: -0.02em;
-        }
-
-        p.tagline {
-            margin: 0;
-            max-width: 28em;
-            font-size: 18px;
-            line-height: 1.6;
-            color: #5c574e;
-        }
-
-        footer {
-            padding: 24px;
-            text-align: center;
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 13px;
-            color: #8a8174;
-        }
-    </style>
+    <title>Zainab Soomro | Data Scientist</title>
+    <meta name="description" content="Zainab Soomro is a data scientist and Fulbright scholar working at the intersection of health, AI, and applied research.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-    <main>
-        <p class="eyebrow">Coming soon</p>
-        <h1>Zainab Soomro</h1>
-        <p class="tagline">
-            A personal page is on the way. Check back soon.
-        </p>
+    <a class="skip" href="#main">Skip to content</a>
+
+    <header class="site-header">
+        <div class="wrap nav">
+            <a class="logo" href="#top">Zainab Soomro</a>
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="site-nav">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#publications">Publications</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="Zainab-Soomro-Resume.pdf">Resume</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main id="main">
+        <section class="hero" id="top">
+            <div class="wrap">
+                <p class="eyebrow">Data scientist · Fulbright scholar</p>
+                <h1>Zainab Soomro</h1>
+                <p class="role">Applied data science for health, research, and large-scale analytics</p>
+                <p class="lead">
+                    I build data science systems that turn complex records into decisions people can use.
+                    Currently I lead data science at Indus Hospital and Health Network, after graduate training
+                    at USC and research at iLab.
+                </p>
+                <div class="hero-actions">
+                    <a class="btn btn-primary" href="Zainab-Soomro-Resume.pdf">Download resume</a>
+                    <a class="btn btn-ghost" href="mailto:zainabsoomro@gmail.com">Get in touch</a>
+                </div>
+                <div class="hero-meta">
+                    <a href="mailto:zainabsoomro@gmail.com">zainabsoomro@gmail.com</a>
+                    <a href="https://www.linkedin.com/in/zainab-soomro" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                    <a href="https://scholar.google.com/citations?user=kXO0RuIAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+                    <a href="tel:+923125209359">+92 312 5209359</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="wrap">
+                <div class="section-head">
+                    <span class="num">01</span>
+                    <h2>About</h2>
+                </div>
+                <div class="card">
+                    <p>
+                        I am a data scientist focused on applied machine learning in healthcare and public-facing analytics.
+                        At Indus Hospital and Health Network, I established the data science department and work with
+                        clinical and operational teams to structure emergency-care data, monitor trends, and ship
+                        models into real workflows.
+                    </p>
+                    <p>
+                        Before that, I completed an M.S. in Applied Data Science at the University of Southern California
+                        as a Fulbright scholar and led multimodal research on early ALS detection at iLab USC.
+                        Earlier in my career, I implemented analytical chatbot systems at Reckitt and published
+                        large-scale social media studies on COVID-19 and Brexit.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience">
+            <div class="wrap">
+                <div class="section-head">
+                    <span class="num">02</span>
+                    <h2>Experience</h2>
+                </div>
+
+                <article class="card job">
+                    <div class="job-top">
+                        <div>
+                            <h3>Data Scientist</h3>
+                            <p class="org">Indus Hospital and Health Network · Karachi, Pakistan</p>
+                        </div>
+                        <p class="when">May 2025 – Present</p>
+                    </div>
+                    <ul>
+                        <li>Established the hospital’s data science department, collaborating with multidisciplinary teams to streamline workflows.</li>
+                        <li>Structured 1M+ emergency department visits into NCD categories with greater than 95% accuracy, unlocking survival analysis, trend monitoring, and real-time dashboards.</li>
+                        <li>Developed clustering models (k-Means, k-Prototypes, DBSCAN) on 7,000+ toxicology ED visits and stratified forecasting models (ARIMA, SARIMAX, XGBoost, Prophet, TFT) on 1M+ ED records.</li>
+                        <li>Guided student research on applied health AI, including a bilingual diabetes chatbot and a crisis ambulance app.</li>
+                    </ul>
+                </article>
+
+                <article class="card job">
+                    <div class="job-top">
+                        <div>
+                            <h3>Researcher</h3>
+                            <p class="org">iLab USC (Dr. Laurent Itti) · Los Angeles, CA</p>
+                        </div>
+                        <p class="when">Jan 2023 – Oct 2023</p>
+                    </div>
+                    <ul>
+                        <li>Led multimodal research integrating non-invasive wearable EEG and free-viewing eye-tracking data to aid early detection of ALS with machine learning models.</li>
+                        <li>Completed phase one: device shortlisting and setup, sample data collection, and exploratory data analysis.</li>
+                    </ul>
+                </article>
+
+                <article class="card job">
+                    <div class="job-top">
+                        <div>
+                            <h3>Implementation and Activation Lead, IT &amp; Digital</h3>
+                            <p class="org">Reckitt (Global) · Karachi, Pakistan</p>
+                        </div>
+                        <p class="when">Jan 2021 – Dec 2021</p>
+                    </div>
+                    <ul>
+                        <li>Orchestrated end-to-end implementation of an advanced analytical chatbot, serving 100+ users in Pakistan and 70+ Reckitt Health clients.</li>
+                        <li>Moved the chatbot from localized data collection to centralized automated aggregation, enabling expansion to 10 markets within one year, a timeline previously estimated at six years.</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <section id="publications">
+            <div class="wrap">
+                <div class="section-head">
+                    <span class="num">03</span>
+                    <h2>Publications</h2>
+                </div>
+
+                <article class="card pub">
+                    <div class="pub-top">
+                        <div>
+                            <h3>
+                                <a class="title" href="https://doi.org/10.1109/besc51023.2020.9348291" target="_blank" rel="noopener noreferrer">
+                                    Sentiment, Count and Cases: Analysis of Twitter discussions during COVID-19 Pandemic
+                                </a>
+                            </h3>
+                            <p class="venue">BESC 2020</p>
+                        </div>
+                        <p class="when">Jul 2020</p>
+                    </div>
+                    <ul>
+                        <li>Performed sentiment analysis on 18 million COVID-19 tweets from March 1 to May 31, 2020.</li>
+                        <li>Found a significant positive correlation between tweets mentioning Italy, the USA, and the UK and the daily increase in COVID-19 cases in those countries.</li>
+                    </ul>
+                </article>
+
+                <article class="card pub">
+                    <div class="pub-top">
+                        <div>
+                            <h3>
+                                <a class="title" href="https://doi.org/10.1145/3396956.3396973" target="_blank" rel="noopener noreferrer">
+                                    Analyzing Brexit’s impact using sentiment analysis and topic modeling on Twitter discussion
+                                </a>
+                            </h3>
+                            <p class="venue">dg.o 2020</p>
+                        </div>
+                        <p class="when">Jan 2020</p>
+                    </div>
+                    <ul>
+                        <li>Nominated for best paper award in the Social Media and Government Track.</li>
+                        <li>Analyzed 16 million tweets about Brexit using topic modeling and sentiment analysis.</li>
+                        <li>Found a strong positive correlation between the value of the pound sterling and public sentiment regarding Brexit on Twitter, with discussion topics closely tracking real-world events.</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="wrap">
+                <div class="section-head">
+                    <span class="num">04</span>
+                    <h2>Projects</h2>
+                </div>
+
+                <div class="grid-2">
+                    <article class="card project">
+                        <div class="project-top">
+                            <h3>Collaborative Filtering for Yelp</h3>
+                            <p class="when">Mar 2023 – Apr 2023</p>
+                        </div>
+                        <ul>
+                            <li>Designed an item-based collaborative filtering model with Pearson similarity (1.02 RMSE) using Hadoop, Spark, and Python.</li>
+                            <li>Reduced RMSE to 0.96 with feature engineering and an ensemble of collaborative filtering and XGBoost regression.</li>
+                            <li>Fine-tuned the system with user-based averages and an ensemble model to address cold start and biased ratings.</li>
+                        </ul>
+                    </article>
+
+                    <article class="card project">
+                        <div class="project-top">
+                            <h3>Hadoop Emulation</h3>
+                            <p class="when">Aug 2022 – Dec 2022</p>
+                        </div>
+                        <p class="note">Awarded best project</p>
+                        <ul>
+                            <li>Engineered an end-to-end resilient distributed system in Python Flask using a map-reduce paradigm, with efficient storage and partitioning for 30% faster analysis of large datasets.</li>
+                            <li>Built a scalable Angular interface supporting SQL and NoSQL architectures, improving user interaction and analysis throughput.</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="education">
+            <div class="wrap">
+                <div class="section-head">
+                    <span class="num">05</span>
+                    <h2>Education</h2>
+                </div>
+
+                <article class="card school">
+                    <div class="school-top">
+                        <div>
+                            <h3>University of Southern California</h3>
+                            <p class="org">M.S. in Applied Data Science · Los Angeles, CA</p>
+                            <p class="note">Fulbright Scholarship</p>
+                        </div>
+                        <p class="when">Jan 2022 – Dec 2023</p>
+                    </div>
+                    <p>Coursework: Machine Learning, Data Mining, Database Management, Medical Imaging Informatics</p>
+                </article>
+
+                <article class="card school">
+                    <div class="school-top">
+                        <div>
+                            <h3>Lahore University of Management Sciences</h3>
+                            <p class="org">B.S. (Honors) in Management Science, Minor in Computer Science · Lahore, Pakistan</p>
+                            <p class="note">Dean’s Honor List, 2016–2017, Fall 2017 &amp; Spring 2020</p>
+                        </div>
+                        <p class="when">Aug 2016 – May 2020</p>
+                    </div>
+                    <p>Coursework: Computer Vision, Artificial Intelligence, Probability &amp; Statistics, Linear Algebra, Business Analytics</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="skills">
+            <div class="wrap">
+                <div class="section-head">
+                    <span class="num">06</span>
+                    <h2>Skills</h2>
+                </div>
+                <div class="skills">
+                    <article class="card skill-group">
+                        <h3>Languages</h3>
+                        <div class="chips">
+                            <span class="chip">Python</span>
+                            <span class="chip">C++</span>
+                            <span class="chip">R</span>
+                            <span class="chip">SQL</span>
+                        </div>
+                    </article>
+                    <article class="card skill-group">
+                        <h3>Machine learning</h3>
+                        <div class="chips">
+                            <span class="chip">PyTorch</span>
+                            <span class="chip">TensorFlow</span>
+                            <span class="chip">Scikit-learn</span>
+                            <span class="chip">XGBoost</span>
+                            <span class="chip">NLP</span>
+                            <span class="chip">OpenCV</span>
+                        </div>
+                    </article>
+                    <article class="card skill-group">
+                        <h3>Data &amp; infrastructure</h3>
+                        <div class="chips">
+                            <span class="chip">Apache Spark</span>
+                            <span class="chip">Hadoop</span>
+                            <span class="chip">MySQL</span>
+                            <span class="chip">MongoDB</span>
+                            <span class="chip">Firebase</span>
+                            <span class="chip">AWS</span>
+                        </div>
+                    </article>
+                    <article class="card skill-group">
+                        <h3>Tools &amp; methods</h3>
+                        <div class="chips">
+                            <span class="chip">Pandas</span>
+                            <span class="chip">NumPy</span>
+                            <span class="chip">Power BI</span>
+                            <span class="chip">GitHub</span>
+                            <span class="chip">REST APIs</span>
+                            <span class="chip">Optimization</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="wrap">
+                <div class="section-head">
+                    <span class="num">07</span>
+                    <h2>Contact</h2>
+                </div>
+                <div class="card">
+                    <p class="lead">Open to research, health AI, and applied data science conversations.</p>
+                    <div class="contact-row">
+                        <a class="btn btn-primary" href="mailto:zainabsoomro@gmail.com">Email</a>
+                        <a class="btn btn-ghost" href="https://www.linkedin.com/in/zainab-soomro" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                        <a class="btn btn-ghost" href="Zainab-Soomro-Resume.pdf">Resume</a>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
-    <footer>
-        © 2026 Zainab Soomro
+    <footer class="site-footer">
+        <div class="wrap">
+            <span>© 2026 Zainab Soomro</span>
+            <span>Karachi · Los Angeles</span>
+        </div>
     </footer>
+
+    <script src="main.js"></script>
 </body>
 </html>
